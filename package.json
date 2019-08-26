@@ -1,6 +1,6 @@
 {
   "name": "create-camunda-modeler-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Camunda Modeler plug-in scaffolding utility",
   "bin": "./cmd.js",
   "scripts": {
