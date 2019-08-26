@@ -1,0 +1,25 @@
+{
+  "name": "create-camunda-modeler-plugin",
+  "version": "0.0.0",
+  "description": "A Camunda Modeler plug-in scaffolding utility",
+  "bin": "./cmd.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikku/create-camunda-modeler-plugin.git"
+  },
+  "keywords": [
+    "bpmnlint",
+    "generator"
+  ],
+  "author": "Nico Rehwaldt",
+  "license": "MIT",
+  "dependencies": {
+    "ids": "^1.0.0",
+    "kleur": "^3.0.3",
+    "mri": "^1.1.4",
+    "tiny-glob": "^0.2.6"
+  }
+}
