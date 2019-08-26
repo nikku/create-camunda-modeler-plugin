@@ -1,7 +1,7 @@
 {
-  "name": "camunda-modeler-plugin-${PLUGIN_NAME}",
-  "version": "3.1.0",
-  "description": "The Camunda Modeler ${PLUGIN_NAME} plug-in",
+  "name": "camunda-modeler-plugin-${NAME}",
+  "version": "0.0.0",
+  "description": "The Camunda Modeler ${NAME} plug-in",
   "main": "index.js",
   "scripts": {
     "all": "run-s bundle",

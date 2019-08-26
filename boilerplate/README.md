@@ -1,4 +1,4 @@
-# Camunda Modeler ${PLUGIN_NAME} Plug-in
+# Camunda Modeler ${NAME} Plug-in
 
 [![Compatible with Camunda Modeler version 3.3](https://img.shields.io/badge/Camunda%20Modeler-3.3+-blue.svg)](https://github.com/camunda/camunda-modeler)
 
@@ -40,7 +40,7 @@ npm run all
 ## Before you Publish
 
 * [ ] Clearly state which Camunda Modeler version your plug-in is compatible with
-* [ ] Ensure you renamed the [bpmn-js extension](./client/bpmn-js-extension/index.js#L17) from `PLEASE_CHANGE_ME` to something unique
+* [ ] Ensure you renamed the [bpmn-js extension](./client/bpmn-js-extension/index.js#L17) to something sensible
 
 
 ## Additional Resources
