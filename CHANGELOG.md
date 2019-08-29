@@ -6,6 +6,10 @@ All notable changes to [create-camunda-modeler-plugin](https://github.com/nikku/
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.0.4
+
+* `FIX`: replace `NAME` in plug-in entry
+
 ## 0.0.3
 
 * `FIX`: correctly replace template names
