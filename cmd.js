@@ -19,9 +19,10 @@ const config = {
   directoryTemplate: 'camunda-modeler-plugin-${NAME}',
   runCommand: 'npm run all',
   templateFiles: [
-    'README.md',
+    'client/bpmn-js-extension/index.js',
+    'index.js',
     'package.json',
-    'client/bpmn-js-extension/index.js'
+    'README.md'
   ],
   replaceAdditional: (str) => {
     return str.replace(/\$\{UUID\}/g, uuid);
