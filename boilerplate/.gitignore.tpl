@@ -1,3 +1,3 @@
-!dist
-client
-webpack.config.js
+dist
+!client
+node_modules
