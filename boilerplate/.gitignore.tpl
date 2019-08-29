@@ -1,3 +1,2 @@
 dist
-!client
 node_modules
