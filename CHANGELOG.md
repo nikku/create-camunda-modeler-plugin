@@ -6,6 +6,10 @@ All notable changes to [create-camunda-modeler-plugin](https://github.com/nikku/
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.0.6
+
+* `FIX`: replacement of nested template files on Windows
+
 ## 0.0.5
 
 * `FIX`: correct `.gitignore`
