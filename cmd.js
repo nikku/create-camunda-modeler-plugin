@@ -41,6 +41,10 @@ function createReplacer(fns) {
   };
 }
 
+function normalizePath(filePath) {
+  return filePath.replace(/\\/g, '/');
+}
+
 async function run(config) {
 
   const {
@@ -113,7 +117,7 @@ async function run(config) {
     // ensure destination directory exists
     fs.mkdirSync(destDirectory, { recursive: true });
 
-    if (templateFiles && templateFiles.includes(file)) {
+    if (templateFiles && templateFiles.includes(normalizePath(file))) {
 
       const contents = fs.readFileSync(srcPath, 'utf8');
 
